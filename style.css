@@ -1,11 +1,26 @@
 img{
-	width:  15%;
-	border-radius: 15px;
-	border-style: ridge;
+	width:  7%;
+	border-radius: 40px;
+	opacity:.5;
+	border:1px;
+}
+img:hover {
+	opacity: 1
 }
 body{
 	background-color: skyblue;
 }
+
+#content{
+  : 2px ridge #fd8600;;
+  background-color: lightblue; 
+}
+#sub{
+	border-radius: 2px;
+	border-style:groove;
+	background-color: ##4db6ac;
+}
+
 a:link, a:visited {
   color: white;
   padding: 4px 5px;

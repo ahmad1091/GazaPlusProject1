@@ -265,6 +265,7 @@ var a=document.createElement('a');
 var name=document.createElement('span');
 var animal=document.createElement('span');
 var threeWords=document.createElement('span');
+subDiv.id='sub'
 name.textContent = 'Name: '+e.name;
 animal.textContent = ' Spirit Animal: '+e.spiritAnimal;
 threeWords.textContent = ' Three Words: '+e.threeWords;
