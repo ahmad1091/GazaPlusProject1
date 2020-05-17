@@ -1,2 +1,5 @@
 # GazaPlusProject1
-Horoscopes
+##Horoscopes
+### Contributers
+* Ahmad Abdallah
+* Ahmad Maher
