@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 9122c0b98dab1e8a67294145a40245e413a122d0
 var imgDiv=document.getElementById('imgDiv');
 
 imgDiv.onclick=function (e) {
@@ -60,6 +56,7 @@ animal.textContent = ' Spirit Animal: '+e.spiritAnimal;
 threeWords.textContent = e.threeWords;
 a.innerHTML = 'Blog Link';
 a.href = e.blogLink;
+a.target='blank'
 img.src = e.imgUrl;
 }
 
