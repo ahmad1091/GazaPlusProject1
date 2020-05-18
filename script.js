@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9122c0b98dab1e8a67294145a40245e413a122d0
 var imgDiv=document.getElementById('imgDiv');
 
 imgDiv.onclick=function (e) {
