@@ -41,7 +41,7 @@ var gazaPlusTeam = [
   spiritAnimal:'Whale',
   blogLink:'https://ahmadabdallahtech.blogspot.com/',
   threeWords:'Honest, Passionate, Determined',
-    imgUrl : 'studentsImages/47bff158.jpg'
+    imgUrl : 'studentsImages/47bff158.png'
 
  },
   {
@@ -325,35 +325,37 @@ imgDiv.onclick=function (e) {
 	}else if (imgId ===  'Vigro') {
 	   matched = gazaPlusTeam.filter((e)=>{ return e.date.month === 8 && e.date.day  >= 22 || e.date.month === 9 && e.date.day <= 23} )
 	}
-	console.log('matched',matched);
 
 contentDiv.textContent='';
 
 matched.map(function(e){ 
 var subDiv=document.createElement('div');
 var a=document.createElement('a');
-var name=document.createElement('span');
+var name=document.createElement('h1');
+var threeWords=document.createElement('p');
 var animal=document.createElement('span');
-var threeWords=document.createElement('span');
+subDiv.id='sub'
+
 var img = document.createElement('img');
 
-name.textContent = 'Name: '+e.name;
+
+name.textContent = e.name;
 animal.textContent = ' Spirit Animal: '+e.spiritAnimal;
-threeWords.textContent = ' Three Words: '+e.threeWords;
+threeWords.textContent = e.threeWords;
 a.innerHTML = 'Blog Link';
 a.href = e.blogLink;
 img.src = e.imgUrl;
+img.id='student'
 
 subDiv.appendChild(img);
 subDiv.appendChild(name);
-subDiv.appendChild(animal);
 subDiv.appendChild(threeWords);
+subDiv.appendChild(animal);
 subDiv.appendChild(a);
 contentDiv.appendChild(subDiv);
 
 }
 	)
-
 
 }
 
