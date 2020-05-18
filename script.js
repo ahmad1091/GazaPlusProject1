@@ -41,7 +41,7 @@ var gazaPlusTeam = [
   spiritAnimal:'Whale',
   blogLink:'https://ahmadabdallahtech.blogspot.com/',
   threeWords:'Honest, Passionate, Determined',
-    imgUrl : 'studentsImages/47bff158.jpg'
+    imgUrl : 'studentsImages/47bff158.png'
 
  },
   {
