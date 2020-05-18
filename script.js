@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9122c0b98dab1e8a67294145a40245e413a122d0
 var imgDiv=document.getElementById('imgDiv');
 
 imgDiv.onclick=function (e) {
@@ -39,18 +43,26 @@ var a=document.createElement('a');
 var name=document.createElement('h1');
 var threeWords=document.createElement('p');
 var animal=document.createElement('span');
-subDiv.id='sub'
-
 var img = document.createElement('img');
+subDiv.id='sub'
+img.id='student'
 
 
+if(e.spiritAnimal === "") {
+  name.textContent = e.name;
+  img.src = e.imgUrl;
+  a.innerHTML = 'FBI AGENT';
+  threeWords.textContent = "WE KNOW NOTHING ABOUT THE PEOPLE WORKING WITH THE FBI";
+  threeWords.style.color = "red";
+}else {
 name.textContent = e.name;
 animal.textContent = ' Spirit Animal: '+e.spiritAnimal;
 threeWords.textContent = e.threeWords;
 a.innerHTML = 'Blog Link';
 a.href = e.blogLink;
 img.src = e.imgUrl;
-img.id='student'
+}
+
 
 subDiv.appendChild(img);
 subDiv.appendChild(name);

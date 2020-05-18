@@ -240,54 +240,54 @@ var gazaPlusTeam = [
   {
   	name:'Kreem Abelwahed',
   date:{month :1 ,day:28 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/k25941.jpg'
 
  },
   {
   	name:'Nour Sakka',
   date:{month :12 ,day:2 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/n25941.jpg'
 
  },
   {
   	name:'Ola Mahana',
   date:{month :1 ,day:3 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/o25941.jpg'
 
  },
   {
   	name:'Hind Isleem',
   date:{month :11 ,day:3 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/h25941.jpg'
 
  },
   {
   	name:'Maha Nabaheen',
   date:{month :7 ,day:12 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/m25941.jpg'
 
  },
   {
    name:'Dalia Awad',
   date:{month :2 ,day:28 },
-  spiritAnimal:'FBI agent',
-  blogLink:'FBI agent',
-  threeWords:'FBI agent',
+  spiritAnimal:'',
+  blogLink:'',
+  threeWords:'',
     imgUrl : 'studentsImages/d25941.jpg'
 
  }
